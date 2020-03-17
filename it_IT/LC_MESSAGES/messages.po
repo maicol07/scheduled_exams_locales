@@ -4,19 +4,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Domain: messages\n"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:18
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:24
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:32
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:37
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:89
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:19
+msgid "Risolto"
+msgstr "Risolto"
+
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:20
+msgid "Errore quando si visita la pagina 404 da visitatore (senza aver effettuato l'accesso)"
+msgstr "Errore quando si visita la pagina 404 da visitatore (senza aver effettuato l'accesso)"
+
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:29
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:35
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:43
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:48
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:100
 msgid "Nuovo"
 msgstr "Nuovo"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:20
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:31
 msgid "Nuova UI: ora viene offerto uno stile grafico più simile a quello utilizzato da Google, grazie a [MDC](https://material.io/develop/web), chiamato Material Design Refresh o Material Design 2"
 msgstr "Nuova UI: ora viene offerto uno stile grafico più simile a quello utilizzato da Google, grazie a [MDC](https://material.io/develop/web), chiamato Material Design Refresh o Material Design 2"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:25
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:36
 msgid ""
 "Tre nuovi tipi di generazione delle liste:\r\n"
 "                - **Manuale**: le liste vengono create a mano dall'amministratore della classe;\r\n"
@@ -28,11 +36,11 @@ msgstr ""
 "                - **Automatico**: le liste vengono create in automatico (tipico sorteggio casuale);\r\n"
 "                - **Automatico da data di inizio**: le liste vengono create in automatico ma vengono già stabiliti i giorni utili per l'interrogazione (automaticamente)"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:33
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:44
 msgid "Possibilità di stampare le liste in PDF singolarmente o multiple dalla classe di riferimento"
 msgstr "Possibilità di stampare le liste in PDF singolarmente o multiple dalla classe di riferimento"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:39
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:50
 msgid ""
 "Integrazione con [Maicol07 Account](https://account.maicol07.it) (SSO): puoi ora utilizzare il tuo account di Maicol07 Network per accedere (il tuo vecchio account su Interrogazioni Programmate è stato migrato automaticamente.\r\n"
 "                Per motivi di privacy è necessario reimpostare la password al primo accesso)"
@@ -40,11 +48,11 @@ msgstr ""
 "Integrazione con [Maicol07 Account](https://account.maicol07.it) (SSO): puoi ora utilizzare il tuo account di Maicol07 Network per accedere (il tuo vecchio account su Interrogazioni Programmate è stato migrato automaticamente.\r\n"
 "                Per motivi di privacy è necessario reimpostare la password al primo accesso)"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:44
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:55
 msgid "Cambiato"
 msgstr "Cambiato"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:45
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:56
 msgid ""
 "Metodo di iscrizione degli utenti alle classi: ora gli utenti si iscrivono con un codice classe direttamente dalla dashboard.\r\n"
 "                Con lo stesso codice è anche possibile visualizzare la classe e le relative liste (*in sola lettura*) come visitatori, senza effettuare l'accesso"
@@ -52,13 +60,13 @@ msgstr ""
 "Metodo di iscrizione degli utenti alle classi: ora gli utenti si iscrivono con un codice classe direttamente dalla dashboard.\r\n"
 "                Con lo stesso codice è anche possibile visualizzare la classe e le relative liste (*in sola lettura*) come visitatori, senza effettuare l'accesso"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:50
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:57
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:63
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:61
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:68
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:74
 msgid "Migliorato"
 msgstr "Migliorato"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:52
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:63
 msgid ""
 "Supporto a [PWA (Progressive Web Apps)](https://developers.google.com/web/progressive-web-apps): è possibile aggiungere alla propria schermata home una icona per accedere più velocemente all'App senza ogni volta dover aprire il browser e digitare l'URL \r\n"
 "                (**Funzione disponibile solo per browser supportati: controlla [QUI](https://www.goodbarber.com/blog/progressive-web-apps-browser-support-compatibility-a883/) per una lista aggiornata!**"
@@ -66,11 +74,11 @@ msgstr ""
 "Supporto a [PWA (Progressive Web Apps)](https://developers.google.com/web/progressive-web-apps): è possibile aggiungere alla propria schermata home una icona per accedere più velocemente all'App senza ogni volta dover aprire il browser e digitare l'URL \r\n"
 "                (**Funzione disponibile solo per browser supportati: controlla [QUI](https://www.goodbarber.com/blog/progressive-web-apps-browser-support-compatibility-a883/) per una lista aggiornata!**"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:59
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:70
 msgid "Supporto alle lingue grazie alla libreria [Gettext](https://github.com/oscarotero/Gettext) di [Oscar Otero](https://github.com/oscarotero)"
 msgstr "Supporto alle lingue grazie alla libreria [Gettext](https://github.com/oscarotero/Gettext) di [Oscar Otero](https://github.com/oscarotero)"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:64
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:75
 msgid ""
 "Struttura interna dell'app: sono state implementate le seguenti caratteristiche:\r\n"
 "                - Classi;\r\n"
@@ -84,28 +92,28 @@ msgstr ""
 "                - Composer per le librerie esterne;\r\n"
 "                - Yarn/NPM per gli assets"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:72
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:78
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:83
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:89
 msgid "Rimosso"
 msgstr "Rimosso"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:74
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:85
 msgid "Gestione del profilo (il proprio account può essere ora gestito da [Maicol07 Account](https://account.maicol07.it))"
 msgstr "Gestione del profilo (il proprio account può essere ora gestito da [Maicol07 Account](https://account.maicol07.it))"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:80
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:91
 msgid "Impostazioni (le impostazioni riguardanti il proprio account possono essere ora gestite da [Maicol07 Account](https://account.maicol07.it))"
 msgstr "Impostazioni (le impostazioni riguardanti il proprio account possono essere ora gestite da [Maicol07 Account](https://account.maicol07.it))"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:90
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:101
 msgid "Rilascio iniziale"
 msgstr "Rilascio iniziale"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:100
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:111
 msgid "Note di rilascio"
 msgstr "Note di rilascio"
 
-#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:100
+#: /home/maicol07/public_html/scheduledexams.tk/app/changelog.php:111
 msgid "Maicol07 Account"
 msgstr "Maicol07 Account"
 
@@ -388,7 +396,15 @@ msgstr "Sviluppato da Maicol07"
 msgid "Cambia lingua"
 msgstr "Cambia lingua"
 
+#: /home/maicol07/public_html/scheduledexams.tk/app/app/layout/navbar.php:46
+msgid "Visitatore"
+msgstr "Visitatore"
+
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/layout/navbar.php:47
+msgid "Nessuna email"
+msgstr "Nessuna email"
+
+#: /home/maicol07/public_html/scheduledexams.tk/app/app/layout/navbar.php:51
 msgid "Il tuo profilo"
 msgstr "Il tuo profilo"
 
@@ -669,9 +685,8 @@ msgid "Scollega da questo utente"
 msgstr "Scollega da questo utente"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.js:226
-#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.min.js:45
-msgid "Collega ad un utente..."
-msgstr "Collega ad un utente..."
+msgid "Collega ad un utente…"
+msgstr "Collega ad un utente…"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.js:254
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.min.js:48
@@ -897,6 +912,10 @@ msgstr ""
 "possibile visiualizzare la classe (<b>Attenzione! Chiunque possieda il link può visualizzare le informazioni \n"
 "contenute in essa!</b>): %link%"
 
+#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.min.js:45
+msgid "Collega ad un utente..."
+msgstr "Collega ad un utente..."
+
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/classroom.min.js:49
 msgid "No data"
 msgstr "No data"
@@ -959,14 +978,17 @@ msgid "Dicembre"
 msgstr "Dicembre"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/init.js:507
-#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/init.min.js:31
-msgid "Ooops... qualcosa è andato storto!"
-msgstr "Ooops... qualcosa è andato storto!"
+msgid "Ooops… qualcosa è andato storto!"
+msgstr "Ooops… qualcosa è andato storto!"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/init.js:508
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/init.min.js:31
 msgid "Si è verificato un errore!"
 msgstr "Si è verificato un errore!"
+
+#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/init.min.js:31
+msgid "Ooops... qualcosa è andato storto!"
+msgstr "Ooops... qualcosa è andato storto!"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/list.js:65
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/list.js:298
@@ -1113,9 +1135,8 @@ msgid "Lingua cambiata!"
 msgstr "Lingua cambiata!"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.js:23
-#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.min.js:11
-msgid "La pagina ora si aggiornerà per rendere visibili le modifiche..."
-msgstr "La pagina ora si aggiornerà per rendere visibili le modifiche..."
+msgid "La pagina ora si aggiornerà per rendere visibili le modifiche…"
+msgstr "La pagina ora si aggiornerà per rendere visibili le modifiche…"
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.js:53
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.min.js:13
@@ -1156,6 +1177,10 @@ msgstr "Leggi le note di rilascio"
 #: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.min.js:17
 msgid "Community"
 msgstr "Community"
+
+#: /home/maicol07/public_html/scheduledexams.tk/app/app/assets/js/navbar.min.js:11
+msgid "La pagina ora si aggiornerà per rendere visibili le modifiche..."
+msgstr "La pagina ora si aggiornerà per rendere visibili le modifiche..."
 
 #: /home/maicol07/public_html/scheduledexams.tk/app/src/app/Utils.php:111
 #: /home/maicol07/public_html/scheduledexams.tk/app/src/app/Utils.php:117
